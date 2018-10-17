@@ -1,4 +1,4 @@
-//ES6中不考虑类的继承实现Stack
+//ES6中类实现绝对私有变量
 let Stack = (() => {
     const items = new WeakMap();
     class Stack {
